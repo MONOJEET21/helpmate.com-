@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .job-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .job-card:hover {
+            transform: translateY(-5px);
+        }
+        .job-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .job-content {
+            padding: 15px;
+        }
+        .job-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+        .job-description {
+            font-size: 14px;
+            color: #555;
+            margin: 0 0 15px;
+        }
+        .job-link {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .job-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Job Applications</div>
+    <div class="container">
+        <div class="job-card">
+            <img src="maid.jpg" alt="Maid" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">Santa Bai</h3>
+                <p class="job-description">a professional Experienced maid with 10 years of Experience</p>
+                <a href="maid.html" class="job-link">View Details</a>
+            </div>
+        </div>
+        <div class="job-card">
+            <img src="driver.jpg" alt="Driver" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">Aman kumar</h3>
+                <p class="job-description">Experienced household worker with 5 years of working Experience.</p>
+                <a href="driver.html" class="job-link">View Details</a>
+            </div>
+        </div>
+        <div class="job-card">
+            <img src="cook.jpg" alt="Cook" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">Vilota thackerey</h3>
+                <p class="job-description">good cook with household cleaning experience of 5 years </p>
+                <a href="cook.html" class="job-link">View Details</a>
+            </div>
+        </div>
+        <div class="job-card">
+            <img src="babysitter.jpg" alt="Babysitter" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">kanta boro</h3>
+                <p class="job-description">good maid with best experience from mother teresa school of nursing </p>
+                <a href="babysitter.html" class="job-link">View Details</a>
+            </div>
+        </div>
+        <div class="job-card">
+            <img src="gardener.jpg" alt="Gardener" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">ramu kaka</h3>
+                <p class="job-description">Skilled gardeners to maintain and beautify your garden or lawn.</p>
+                <a href="gardener.html" class="job-link">View Details</a>
+            </div>
+        </div>
+        <div class="job-card">
+            <img src="others.jpg" alt="Others" class="job-image">
+            <div class="job-content">
+                <h3 class="job-title">Other Services</h3>
+                <p class="job-description">Explore a variety of other services tailored to your needs.</p>
+                <a href="others.html" class="job-link">View Details</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

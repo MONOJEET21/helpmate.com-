@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('main.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        .job-box {
+            position: absolute;
+            padding: 100px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            width: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .maid-box { top: 20px; left: 20px; background: #ffcccb; }
+        .driver-box { top: 20px; right: 20px; background: #add8e6; }
+        .cook-box { top: 20px; centre: 20px; background: #90ee90; }
+        .babysitter-box { top: 350px; centre: 20px; background: #f4a460; }
+        .gardener-box { top: 350px; left: 20px; background: #d8bfd8; }
+        .others-box { top: 350px; right: 20px; background: #d3d3d3; }
+        .job-box:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <a href="maid.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box maid-box" style="background-image: url('maid.jpg'); background-size: cover; background-position: center;">
+            Maid
+        </div>
+    </a>
+    <a href="driver.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box driver-box" style="background-image: url('driver.jpg'); background-size: cover; background-position: center;">
+            Driver
+        </div>
+    </a>
+    <a href="cook.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box cook-box" style="background-image: url('cook.jpg'); background-size: cover; background-position: center;">
+            Cook
+        </div>
+    </a>
+    <a href="babysitter.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box babysitter-box" style="background-image: url('babysitter.jpg'); background-size: cover; background-position: center;">
+            Babysitter
+        </div>
+    </a>
+    <a href="gardener.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box gardener-box" style="background-image: url('gardener.jpg'); background-size: cover; background-position: top;">
+            Gardener
+        </div>
+    </a>
+    <a href="others.html" style="text-decoration: none; color: inherit;">
+        <div class="job-box others-box" style="background-image: url('others.jpg '); background-size: cover; background-position: center;">
+            Others
+        </div>
+    </a>
+</body>
+</html>
